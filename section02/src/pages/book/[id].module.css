@@ -1,3 +1,9 @@
+.continer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .cover_img_container {
   display: flex;
   justify-content: center;
@@ -24,4 +30,25 @@
   z-index: 1;
   max-height: 350px;
   height: 100%;
+}
+
+.title {
+  font-size: large;
+  font-weight: bold;
+}
+
+.subTitle {
+  color: gray;
+}
+
+.author {
+  color: gray;
+}
+
+.description {
+  background-color: rgb(245, 245, 245);
+  padding: 15px;
+  line-height: 1.3;
+  white-space: pre-line;
+  border-radius: 5px;
 }
