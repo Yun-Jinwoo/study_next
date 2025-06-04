@@ -4,6 +4,7 @@ import BookItem from "@/components/book-item";
 import fetchBooks from "@/lib/fetch-books";
 import { useRouter } from "next/router";
 import Head from "next/head";
+import { BookData } from "@/types";
 
 export default function Page() {
   const [books, setBooks] = useState<BookData[]>([]);
